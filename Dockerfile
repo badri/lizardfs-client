@@ -11,5 +11,5 @@ RUN echo "deb-src http://packages.lizardfs.com/ubuntu/trusty trusty main" >> /et
 
 RUN apt-get -y update
 
-RUN apt-get install lizardfs-client
+RUN apt-get install -y lizardfs-client
 
